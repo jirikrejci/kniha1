@@ -77,3 +77,22 @@ while True:
     if a > 10:
         break
     print(a)
+
+# for in test
+countries = ["Dánsko", "Norsko", "Finsko", "Česká republika"]
+
+for country in countries:
+    print(country)
+
+
+print(countries)
+
+# písmena - nádherná ukázka
+print("__________________________")
+print(" písmena - nádherná ukázka")
+
+for letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+    if letter in "AEIOU":
+        print(letter, "je samohláska")
+    else:
+        print(letter, "je souhláska")
