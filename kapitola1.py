@@ -64,3 +64,5 @@ else:
 print(a, "je", res)
 
 print("Ahoj z Github")
+
+print("Ahoj z Macka")
