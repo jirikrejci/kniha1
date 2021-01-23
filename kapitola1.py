@@ -67,3 +67,13 @@ print("Ahoj z Github")
 
 print("Ahoj z Macka")
 print("Ahoj z PC")
+
+# while test
+print("While test")
+
+a = 0
+while True:
+    a = a + 1
+    if a > 10:
+        break
+    print(a)
