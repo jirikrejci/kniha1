@@ -21,7 +21,7 @@ a = ['jedna', 2, ' tři', 'four']
 
 print(a)
 
-print (a[2])
+print(a[2])
 print(len(a))
 
 a.append("pjať")
@@ -43,24 +43,24 @@ print(zvirata)
 print("kočka je v seznamu:", "kočka" in zvirata)
 print("pes je v seznamu:", "pes" in zvirata)
 
-#logické operátory
+# logické operátory
 five = 5
 two = 2
 zero = 0
 
-print (five and two)
-
+print(five and two)
 
 a = "krokodýl2"
 
-
 if a == "panda":
     res = "savec"
-elif a=="krokodýl":
+elif a == "krokodýl":
     res = "obojživelník"
-elif a=="pstruh":
-    res="ryba"
+elif a == "pstruh":
+    res = "ryba"
 else:
-    res="... fakt nevím, co to je :-)"
+    res = "... fakt nevím, co to je :-)"
 
 print(a, "je", res)
+
+print("Ahoj z Github")
